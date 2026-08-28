@@ -24,9 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<!-- TODO: Replace everything below with your biography.
-
-     A typical academic homepage opens with your position and
-     institution, then covers your research interests, then your
-     background (degrees, prior positions). Two or three short
-     paragraphs is the usual length. -->
+I am a Ph.D. student in the [Department of Political Science](https://live-sas-www-polisci.pantheon.sas.upenn.edu/people/mina-rulis) at the University of Pennsylvania. My research centers on questions related to information production and dissemination, particularly how these dynamics shape civilian government relations and international politics. Prior to attending Penn, I was a 2023-2024 Fulbright research grantee with the [Communication, Networks, and Contention research group](https://www.polver.uni-konstanz.de/cnc/) at the University of Konstanz. I received my BA from the University of Delaware in 2023 majoring in International Relations and Computer Science. I can be reached at [mrulis@sas.upenn.edu](mailto:mrulis@sas.upenn.edu).

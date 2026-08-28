@@ -7,7 +7,11 @@ nav_order: 3
 description:
 ---
 
-{% assign cv_file = "/assets/pdf/rulis_cv_F26.pdf" | relative_url %}
+{% comment %}
+  The CV lives at a fixed filename so a new version can be uploaded
+  straight over the old one without editing this page.
+{% endcomment %}
+{% assign cv_file = "/assets/pdf/cv.pdf" | relative_url %}
 
 <style>
   .cv-actions {
