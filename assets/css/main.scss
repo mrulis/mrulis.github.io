@@ -61,3 +61,60 @@ html[data-theme="dark"] {
   --global-theme-color: #8fb2ee;
   --global-hover-color: #8fb2ee;
 }
+
+/* Full name in bold in the upper-left corner. The theme's markup bolds
+   only the first name and applies a lighter weight to the whole brand,
+   so this overrides both. The compound selector outranks the theme's
+   .font-weight-lighter utility. */
+.navbar-brand.title {
+  font-weight: 700;
+}
+
+/* Research and teaching entries.
+   One entry is a title, an author line, and a venue/date line. The
+   teaching page adds a term pinned to the right of each row. */
+.entry-list {
+  margin-bottom: 2.5rem;
+}
+
+.entry,
+.teach-row {
+  margin-bottom: 1.35rem;
+}
+
+.entry-title {
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.entry-authors,
+.entry-meta {
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+}
+
+.teach-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+}
+
+.teach-term {
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* On narrow screens the term drops below the course rather than being
+   squeezed against it. */
+@media (max-width: 576px) {
+  .teach-row {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .teach-term {
+    white-space: normal;
+  }
+}

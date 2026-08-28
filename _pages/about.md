@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: # TODO: your title, department, and institution — e.g. "PhD Candidate, Department of X, University of Y"
+subtitle: "Ph.D. Student, Department of Political Science<br>University of Pennsylvania"
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: # TODO: office address or contact details, or leave blank to omit
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # research is listed on the research page, not generated from BibTeX
 social: true # includes social icons at the bottom of the page
 
 announcements:
