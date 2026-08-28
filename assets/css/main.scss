@@ -1,0 +1,63 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/*******************************************************************************
+ * Local overrides
+ *
+ * This file is a copy of the theme's own assets/css/main.scss. A file at
+ * this path in the site takes precedence over the gem's copy, so the
+ * block below is appended to the compiled stylesheet.
+ *
+ * Everything above this line is the theme's, unmodified — keep it that
+ * way so the file stays easy to re-sync after a theme upgrade. Put all
+ * local changes here.
+ *
+ * The accent colour is set through CSS custom properties rather than by
+ * overriding the theme's Sass variables. Overriding _variables.scss does
+ * not work: the theme's own partials sit beside the gem's copy of that
+ * file and resolve to it regardless of what the site provides. These
+ * declarations come after the theme's, so they win.
+ ******************************************************************************/
+
+:root {
+  --global-theme-color: #608de6;
+  --global-hover-color: #608de6;
+  --global-code-bg-color: rgba(96, 141, 230, 0.05);
+}
+
+html[data-theme="dark"] {
+  /* Lightened so the accent stays legible on the dark background. */
+  --global-theme-color: #8fb2ee;
+  --global-hover-color: #8fb2ee;
+}
