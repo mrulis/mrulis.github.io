@@ -6,7 +6,7 @@ subtitle: # TODO: your title, department, and institution — e.g. "PhD Candidat
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: # TODO: office address or contact details, or leave blank to omit
 
