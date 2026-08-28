@@ -6,8 +6,11 @@ cv:
   image: ""
   summary: # TODO: one or two sentences, or leave blank to omit
 
-  sections:
-# TODO: Your CV sections go here. Each section is a named heading with a
+  sections: {}
+# TODO: Your CV sections go here. Replace the "{}" above with your
+# sections — it means "empty" and is there only so the page builds
+# while the CV is unwritten.
+# Each section is a named heading with a
 # list of entries beneath it. Add them in the order you want them shown.
 #
 # The fields available depend on the kind of entry. The three common
