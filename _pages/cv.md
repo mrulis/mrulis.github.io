@@ -11,7 +11,7 @@ description:
   The CV lives at a fixed filename so a new version can be uploaded
   straight over the old one without editing this page.
 {% endcomment %}
-{% assign cv_file = "/assets/pdf/cv.pdf" | relative_url %}
+{% assign cv_file = "/assets/pdf/rulis_cv.pdf" | relative_url %}
 
 <style>
   .cv-actions {
@@ -54,7 +54,7 @@ description:
 </style>
 
 <div class="cv-actions">
-  <a class="cv-download" href="{{ cv_file }}" download>Download CV (PDF)</a>
+  <a class="cv-download" href="{{ cv_file }}" download="rulis_cv.pdf">Download CV (PDF)</a>
   <a href="{{ cv_file }}" target="_blank" rel="noopener">Open in a new tab</a>
 </div>
 
