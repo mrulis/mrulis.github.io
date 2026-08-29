@@ -1,36 +1,25 @@
 # mrulis.github.io
 
-Academic website of Mina Rulis — https://mrulis.github.io
+Source for <https://mrulis.github.io>, the academic website of Mina Rulis.
 
-Built with [al-folio](https://github.com/alshedivat/al-folio), a Jekyll
-theme for academic sites. Published automatically by GitHub Actions: every
-push to `main` rebuilds the site and updates the live page within a few
-minutes.
+Built with [al-folio](https://github.com/alshedivat/al-folio), a Jekyll theme
+for academic sites. Every push to `main` starts a GitHub Actions build that
+publishes to the `gh-pages` branch; the live site follows a few minutes later.
 
 ## Where things live
 
-| To change this            | Edit this                        |
-| ------------------------- | -------------------------------- |
-| Homepage bio and photo    | `_pages/about.md`                |
-| Publications              | `_bibliography/papers.bib`       |
-| CV                        | `_data/cv.yml`                   |
-| Teaching                  | `_teachings/` (one file per course) |
-| Name, site title, address | `_config.yml`                    |
-| Email and profile links   | `_data/socials.yml`              |
-| Profile photo             | `assets/img/prof_pic.jpg`        |
+| To change this           | Edit this                                    |
+| ------------------------ | -------------------------------------------- |
+| Homepage bio             | `_pages/about.md`                             |
+| Research page            | `_pages/research.md`                          |
+| Teaching page            | `_pages/teaching.md`                          |
+| CV                       | `assets/pdf/rulis_cv.pdf` (replace in place)  |
+| Email and profile links  | `_data/socials.yml`                           |
+| Headshot                 | `assets/img/headshot.jpg`                     |
+| Site title and settings  | `_config.yml`                                 |
 
-Publications are generated from the BibTeX file — paste entries exported
-from Google Scholar or Zotero into `_bibliography/papers.bib` and the
-publications page updates itself. Mark an entry `selected={true}` to also
-feature it on the homepage.
+Publications, presentations, and courses are written directly into those pages
+as HTML. They are not generated from `_bibliography/papers.bib`.
 
-## Sections currently switched off
-
-The blog, projects, repositories, people, and submenu pages still exist in
-`_pages/` but are hidden from the navigation bar (`nav: false` in each
-file's header). Set `nav: true` to bring one back.
-
-## Reference
-
-The theme's own documentation is kept in `docs/` — `docs/CUSTOMIZE.md` is
-the most useful one.
+Unused theme pages — blog, projects, repositories, and others — remain in
+`_pages/` marked `nav: false`, which keeps them out of the navigation bar.

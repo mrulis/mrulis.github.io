@@ -15,4 +15,7 @@ email: mrulis@sas.upenn.edu
 # osf_id:              # Open Science Framework profile ID
 # cv_pdf:              # e.g. cv.pdf — place the file in assets/pdf/
 
-rss_icon: false # set to true only if you start publishing blog posts
+# Note: this file's plugin draws an icon for every key listed here,
+# whatever its value — setting one to false does not hide it. To
+# remove a link, delete or comment out its line. (rss_icon was
+# removed for this reason.)
