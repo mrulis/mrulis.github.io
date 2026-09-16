@@ -21,13 +21,13 @@ nav_order: 1
   </div>
 
   <div class="entry">
-    <div class="entry-title">“Activist Disciplines: Universities in Autocracies and Political Protest.”</div>
+    <div class="entry-title"><a href="https://journals.sagepub.com/doi/10.1177/20531680251335647">“Activist Disciplines: Universities in Autocracies and Political Protest.”</a></div>
     <div class="entry-authors">Nils Weidmann and <strong>Mina Rulis</strong>.</div>
     <div class="entry-meta"><em>Research and Politics</em>, June 2025.</div>
   </div>
 
   <div class="entry">
-    <div class="entry-title">“The Influences of Misinformation on Incidences of Politically Motivated Violence in Europe.”</div>
+    <div class="entry-title"><a href="https://journals.sagepub.com/doi/10.1177/19401612241257873">“The Influences of Misinformation on Incidences of Politically Motivated Violence in Europe.”</a></div>
     <div class="entry-authors"><strong>Mina Rulis</strong>.</div>
     <div class="entry-meta"><em>The International Journal of Press/Politics</em>, June 2024.</div>
   </div>
