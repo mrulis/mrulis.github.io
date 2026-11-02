@@ -5,7 +5,7 @@ permalink: /
 subtitle: "Ph.D. Student, Department of Political Science<br>University of Pennsylvania"
 
 profile:
-  align: right
+  align: left
   image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: # TODO: office address or contact details, or leave blank to omit
