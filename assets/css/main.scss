@@ -119,12 +119,13 @@ html[data-theme="dark"] {
   }
 }
 
-/* Homepage photo cropped to a square. The original is a 2:3 portrait,
-   so the crop keeps the upper part of the image where the face is. */
-.profile img {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  object-position: center 20%;
+/* Homepage photo narrower than the theme's 30% of the page width, so it
+   sits less heavily beside the bio. Phones keep the theme's full-width
+   photo. */
+@media (min-width: 576px) {
+  .profile {
+    width: 22%;
+  }
 }
 
 /* Smaller contact icon(s) at the bottom of the homepage (theme default
