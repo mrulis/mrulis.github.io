@@ -33,6 +33,16 @@ nav_order: 1
   </div>
 </div>
 
+## Works in Progress
+
+<div class="entry-list">
+  <div class="entry">
+    <div class="entry-title">“Diverging Institutional Responses to Political Pressure: The Retreat from DEI Language across U.S. Universities”</div>
+    <div class="entry-authors"><strong>Mina Rulis</strong> and Nils Weidmann</div>
+    <div class="entry-meta">Under Review</div>
+  </div>
+</div>
+
 ## Reports & Non-Refereed Publications
 
 <div class="entry-list">

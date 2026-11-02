@@ -118,3 +118,17 @@ html[data-theme="dark"] {
     white-space: normal;
   }
 }
+
+/* Homepage photo cropped to a square. The original is a 2:3 portrait,
+   so the crop keeps the upper part of the image where the face is. */
+.profile img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+/* Smaller contact icons at the bottom of the homepage (theme default
+   is 4rem). */
+.social .contact-icons {
+  font-size: 2.5rem;
+}
